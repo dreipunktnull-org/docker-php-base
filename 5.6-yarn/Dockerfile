@@ -1,6 +1,6 @@
 FROM dreipunktnull/docker-php-base:5.6
 
-ENV $HOME/.nvm
+ENV NVM_DIR $HOME/.nvm
 
 ENV NODE_VERSION 7.5
 
