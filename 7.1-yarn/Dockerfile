@@ -2,7 +2,7 @@ FROM dreipunktnull/docker-php-base:7.1
 
 ENV NVM_DIR $HOME/.nvm
 
-ENV NODE_VERSION 7.5
+ENV NODE_VERSION 7.9
 
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash && \
   \. "$NVM_DIR/nvm.sh" && \
