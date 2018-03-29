@@ -1,4 +1,4 @@
-FROM dreipunktnull/docker-php-base:7.0
+FROM dreipunktnull/docker-php-base:7.2
 
 ENV NVM_DIR $HOME/.nvm
 
